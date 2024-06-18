@@ -65,7 +65,7 @@ RUN mkdir -p output/
 
 ENTRYPOINT [ "python", "batch.py" ]
 ```
-'''bash
+```bash
 docker build -t my-batch-script .
 
 docker run my-batch-script yellow 2023 5
